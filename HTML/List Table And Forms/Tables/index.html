@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tables</h1>
+    </header>
+    <main>
+        <section>
+            <div class="first">
+                <ul>
+                    <li>table tag is used to create tables</li>
+                    <li>Tags in tables
+                        <ol>
+                            <li>&lttr&gt <b>Table Row</b> Used to define a row in HTML table</li>
+                            <li>&lttd&gt <b>Table Data</b> Used to define actual data in HTML table</li>
+                            <li>&ltth&gt <b>Table Heading</b> Used for header cells within a row.<br>Text is bold
+                                andcentered by default</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Caption:</b>
+                        <ul>
+                            <li><b>Purpose:</b>It provides little description for table</li>
+                            <li><b>Placement:</b>Must be inserted immediately after &lt table &gt opening</li>
+                            <li><b>Allignment:</b>Centered above the table by default</li>
+
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="second">
+                <table border="2em">
+                    <caption>Student Information</caption>
+                    <thead>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Email</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Shubham Puri</td>
+                            <td>26</td>
+                            <td>shubhampuri1998@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Shrikant Surve</td>
+                            <td>22</td>
+                            <td>shrisurve7757@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Sejal Patankar</td>
+                            <td>21</td>
+                            <td>sejalpatankar9@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section>
+            <div class="third">
+                <h2>Col Spans</h2>
+                <ol>
+                    <li><b>Attributes:</b>Uses The colspan attribute in &lttd&gt or &ltth&gt tags</li>
+                    <li><b>Purpose:</b>Allows a cell to <b>span multiple columns</b> horizantally</li>
+                    <li><b>Allignment:</b>Takes The Space Of The <b>specified number of columns</b> horizantally</li>
+
+                </ol>
+            </div>
+        </section>
+        <section>
+            <div class="fourth">
+                <table border="2em">
+                    <caption>Student Contact Detail</caption>
+                    <thead>
+                        <th colspan="3">Sinhagad College Pune</th>
+                    </thead>
+                    <thead>
+
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone No</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Shrikant</td>
+                            <td>Pune</td>
+                            <td>7796277757</td>
+                        </tr>
+                        <tr>
+                            <td>Sejal</td>
+                            <td>Pune</td>
+                            <td>9579678375</td>
+                        </tr>
+                        <tr>
+                            <td>Shubham</td>
+                            <td>Pune</td>
+                            <td>8793569631</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Same</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section>
+            <div class="fourth">
+                <h2>Row Span</h2>
+                <ol>
+                    <li><b>Attributes:</b>Used in &lttd&get,&ltth&gt tags</li>
+                    <li><b>Purpose:</b>Allows to span multiple rows vertically</li>
+
+                </ol>
+            </div>
+        </section>
+        <section>
+            <div class="fifth">
+                <h2>Row Span Example</h2>
+                <table border="2em">
+                    <caption>Student Contact Detail</caption>
+                    <thead>
+                        <th colspan="3">Sinhagad College Pune</th>
+                    </thead>
+                    <thead>
+
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone No</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Shrikant</td>
+                            <td>Pune</td>
+                            <td>7796277757</td>
+                        </tr>
+                        <tr>
+                            <td>Sejal</td>
+                            <td>Pune</td>
+                            <td>9579678375</td>
+                        </tr>
+                        <tr>
+                            <td>Shubham</td>
+                            <td>Pune</td>
+                            <td>8793569631</td>
+                        </tr>
+                        <tr>
+                            <td>Shubham</td>
+                            <td rowspan="3">25</td>
+                            <td rowspan="3">Sinhagad.edu.co.in</td>
+                        </tr>
+                        <tr>
+                            <td>Shrikant</td>
+                        </tr>
+                        <tr>
+                            <td>Sejal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
