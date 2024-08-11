@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types Of CSS</title>
+    <style>
+        ol {
+            color: rgb(4, 32, 18);
+        }
+    </style>
+    <link rel="stylesheet" href="CSS/typesOfCss.css">
+</head>
+
+<body>
+    <header>
+        <h1>Types Of CSS</h1>
+    </header>
+    <main>
+        <section>
+            <div class="first">
+                <ol>
+                    <li><b>Inline Css</b>
+                        <ul>
+                            <li>It is used to apply style directly to the HTML element with the <b
+                                    style="color:steelblue;">Style Attribute</b></li>
+                            <li>Ideal for single element styling</li>
+                        </ul>
+                    </li><br><br>
+                    <li>
+                        <b>Internal CSS</b>
+                        <ul>
+                            <li><b>Embeded CSS:</b>
+                                Style are placed within &ltstyle&gt tags in the HTML head section
+                            </li>
+                            <li><b>Cleaner than Inline:</b> More Orgnized compare to Inline style</li>
+                            <li>Resuable code</li>
+                        </ul>
+                    </li><br><br>
+                    <li>
+                        <b>External Css:</b>
+                        <ul>
+                            <li>
+                                We can create .css file to include css
+                            </li>
+                            <li>We can include that css file with <b>&lt link rel= "stylesheet" href="style.css"&gt</b>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section><br>
+        <hr>
+        <section>
+            <div class="second">
+                <h2>Priority Of CSS </h2>
+                <!-- Here ol is following internal css not external as priority is more of internal than external -->
+                <ol>
+                    <li style="color: brown;">Inline css (Most Priority)</li>
+                    <li>Internal Css (Second Priority)</li>
+                    <li>External Csss (Least Priority)</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
