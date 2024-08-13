@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Property</title>
+    <style>
+        .box {
+            height: 200px;
+            width: 200px;
+            margin: 15px;
+            font-size: 35px;
+            padding-left: 70px;
+            padding-top: 100px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 500px;
+            width: 500px;
+            display: grid;
+            border: 2px solid;
+            background-color: cornflowerblue;
+        }
+
+        #box1 {
+            grid-row: 1/2;
+            grid-column: 1/2;
+            background-color: blue;
+        }
+
+        #box2 {
+            grid-row: 1/2;
+            grid-column: 2/2;
+            background-color: blueviolet;
+        }
+
+        #box3 {
+            grid-row: 2/2;
+            grid-column: 1/2;
+            background-color: brown;
+        }
+
+        #box4 {
+            grid-row: 2/2;
+            grid-column: 2/2;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Grid Property</h1>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="box" id="box1">Box-1</div>
+                <div class="box" id="box2">Box-2</div>
+                <div class="box" id="box3">Box-3</div>
+                <div class="box" id="box4">Box-4</div>
+
+            </div>
+
+
+        </section>
+    </main>
+</body>
+
+</html>

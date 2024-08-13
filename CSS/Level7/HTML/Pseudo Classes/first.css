@@ -1,0 +1,19 @@
+.btn {
+    width: 100px;
+    height: 20px;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    width: 150px;
+    height: 50px;
+
+}
+
+.btn:active {
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+
+}

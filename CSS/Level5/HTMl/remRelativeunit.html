@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rem Relative Unit</title>
+    <style>
+        * {
+            font-size: 10px;
+        }
+
+        .parent {
+            font-size: 35px;
+            height: 700px;
+            width: 700px;
+            background-color: blueviolet;
+        }
+
+        .child {
+            font-size: 0.5em;
+            height: 50%;
+            width: 50%;
+            background-color: cadetblue;
+        }
+
+        .subchild {
+            font-size: 2rem;
+            height: 25%;
+            width: 25%;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>rem Relative Unit</h1>
+    </header>
+    <main>
+        <section>
+            <div class="parent">
+                Parent
+                <div class="child">
+                    Child
+                    <div class="subchild">
+                        Subchild
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="information">
+            <ol>
+                <li>It will take fromm root element</li>
+            </ol>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em Relative Unit</title>
+    <style>
+        .parent {
+            font-size: 20px;
+            height: 300px;
+            width: 300px;
+            background-color: blueviolet;
+        }
+
+        .child {
+            font-size: 2em;
+            height: 50%;
+            width: 50%;
+            background-color: yellow;
+        }
+
+        .information {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>em Realtive Unit</h1>
+    </header>
+    <main>
+        <section>
+            <div class="parent">Parent
+                <div class="child">
+                    Child
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="information">
+                <ol>
+                    <li>em will take mentioned size of given value</li>
+                    <li>If font size in parent is 50px and in child is 2em then the font size in child will be 100px
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

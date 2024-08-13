@@ -1,0 +1,34 @@
+.box {
+    height: 350px;
+    width: 350px;
+    background-color: blueviolet;
+    font-size: 55px;
+    box-sizing: border-box;
+    padding-top: 150px;
+    padding-left: 100px;
+    border: 5px solid black;
+    border-radius: 10px;
+    animation-name: shubham;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+    margin-bottom: 15px;
+
+}
+
+.heading {
+    text-align: center;
+}
+
+@keyframes shubham {
+    from {
+        left: 20px;
+    }
+
+    to {
+        left: 100%;
+    }
+}

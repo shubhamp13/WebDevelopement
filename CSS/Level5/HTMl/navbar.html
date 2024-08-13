@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            padding-top: 15px;
+            background-color: chartreuse;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 35px;
+        }
+
+        a {
+            margin-left: 50px;
+        }
+
+        .footer {
+            background-color: chocolate;
+            font-size: 20px;
+            position: absolute;
+            bottom: 15px;
+        }
+
+        .first {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(196, 145, 56);
+            border-radius: 50%;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+
+        #one {
+            background-color: burlywood;
+            display: inline-block;
+        }
+
+        #two {
+            background-color: yellow;
+            display: inline-block;
+        }
+
+        #three {
+            background-color: aqua;
+            display: inline-block;
+        }
+
+        .container {
+            border: 2px solid;
+            width: 450px;
+        }
+
+        .right {
+            position: fixed;
+            right: 0px;
+        }
+
+
+        .index2 {
+            position: relative;
+            height: 150px;
+            width: 150px;
+            background-color: rgb(184, 195, 202);
+            z-index: 2;
+            bottom: 150px;
+            left: 60px;
+        }
+
+        .index1 {
+            position: relative;
+            height: 150px;
+            width: 150px;
+            background-color: blueviolet;
+            z-index: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Java</a>
+            <a href="#">Python</a>
+            <a href="#">C++</a>
+            <a href="#">Perl<a>
+        </nav>
+    </div>
+    <div class="first">
+
+    </div>
+
+    <div class="container">
+        <div class="box" id="one"></div>
+        <div class="box" id="two"></div>
+        <div class="box" id="three"></div>
+    </div>
+    <div class="right">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div class="index1">Z index 1</div>
+    <div class="index2">Z index 2</div>
+
+    <div class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quasi voluptatibus natus ipsum
+            consectetur cum saepe dolor libero rerum porro!</p>
+    </div>
+
+</body>
+
+</html>

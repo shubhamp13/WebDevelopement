@@ -1,0 +1,26 @@
+.first {
+
+
+    height: 660px;
+    width: 660px;
+    background-image: url(shubham.jpg);
+    /* box-sizing: border-box; */
+    /* background-repeat: no-repeat; */
+    border-radius: 330px;
+    display: inline-block;
+    margin: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    height: 1500px;
+    width: 1500px;
+    display: inline-block;
+    background-color: bisque;
+}

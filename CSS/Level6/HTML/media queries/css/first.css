@@ -1,0 +1,28 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+
+
+
+@media screen and (max-width:300px) {
+
+    /* As soon as width reaches 300px then this css will be applied */
+    .box {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(73, 62, 46)
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:300px) {
+
+    /* As soon as width reaches 300px then this css will be applied */
+    .box {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(73, 62, 46);
+        border-radius: 100px;
+    }
+}

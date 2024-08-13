@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Relative Unit</title>
+    <style>
+        .parent {
+            height: 300px;
+            width: 300px;
+            background-color: blueviolet;
+        }
+
+        .child {
+            height: 50%;
+            width: 50%;
+            background-color: wheat;
+        }
+
+        ol {
+            font-size: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Percentage Relative Unit</h1>
+    </header>
+    <main>
+        <div class="parent">
+            Parent
+            <div class="child">
+                Child
+            </div>
+        </div>
+        <div class="information">
+            <ol>
+                <li>
+                    Percentage unit will take mentioned value of parent element
+                </li>
+                <li>If Parent element is not there then it will take universal mentioned value</li>
+            </ol>
+        </div>
+    </main>
+</body>
+
+</html>
