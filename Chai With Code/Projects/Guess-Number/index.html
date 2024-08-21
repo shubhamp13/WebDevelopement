@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/color-picker/index.html">Color-Picker</a>
+        <a href="/BMI-Calculator/index.html">BMI-Calculator</a>
+        <a href="/Digital-Clock/index.html">Digital-Clock</a>
+        <a href="#">Guess The Number</a>
+    </nav>
+    <header>
+        <h1 class="heading">Guess The Number</h1>
+    </header>
+    <section>
+        <div class="first">
+            Try to guess a number between 1 and 100. You have 10 attempts to find the correct number. Good luck!
+        </div>
+        <div class="container">
+
+            <div class="form">
+                <form action="">
+                    <label for="num">Guess The Number</label>
+                    <input type="text" id="num">
+                    <input type="submit" value="Submit Guess" id="sbt">
+                </form>
+                <div class="result">
+                    <p>Previous Guesses:<span class="guesses"></span></p>
+                    <p>Guesses Remaining:<span class="remainingGuesses">10</span> </p>
+                    <p class="lowOrHi"></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
